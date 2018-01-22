@@ -4,18 +4,33 @@
     android:layout_height="wrap_content"
     android:background="@drawable/text_selectable_helper_bg"
     android:orientation="horizontal"
-    android:gravity="center"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp">
+    android:gravity="center">
 
     <TextView
         android:id="@+id/tv_copy"
         android:text="@string/copy"
-        style="@style/OperateTextView"/>
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp"
+        android:textColor="@color/text_dark"
+        android:textSize="14sp"/>
+
 
     <TextView
         android:id="@+id/tv_select_all"
         android:text="@string/select_all"
-        style="@style/OperateTextView"/>
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp"
+        android:textColor="@color/text_dark"
+        android:textSize="14sp"/>
 
 </LinearLayout>
