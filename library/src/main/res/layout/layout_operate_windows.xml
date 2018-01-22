@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/text_selectable_helper_bg"
     android:orientation="horizontal"
+    android:gravity="center"
     android:paddingLeft="5dp"
     android:paddingRight="5dp">
 
